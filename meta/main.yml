@@ -1,0 +1,8 @@
+---
+dependencies:
+  - role:       'elasticsearch'
+    when:       skipdeps is not defined
+  - role:       'logstash'
+    when:       skipdeps is not defined
+  - role:       'kibana'
+    when:       skipdeps is not defined
